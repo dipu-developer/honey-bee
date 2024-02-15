@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #fffff5 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.svg-icon {
+    width: 20px;
+}
+.mt-main{
+    margin-top: 65px !important;
+}
+
+.ham-icon {
+    width: 35px;
+}
+
+img {
+    width: 100%;
+}
+
+.product img {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.main-text {
+    font-family: cursive;
+    color: #ff9c04;
+}
+
+.main-bg {
+    background-color: #ff9c04 !important;
+}
+
+.bg-banner {
+    background: url("../img/banner.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.blur {
+    background: #fffcf8b9;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li::before {
+    content: ">";
+    padding-right: 10px;
+}
