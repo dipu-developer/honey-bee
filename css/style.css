@@ -24,8 +24,8 @@ img {
 }
 
 .product img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 150px;
+    max-height: 150px;
     object-fit: contain;
 }
 
@@ -55,6 +55,10 @@ img {
     background: #fffcf8b9;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+}
+.offerbanner{
+    max-height: 450px;
+    object-fit: cover;
 }
 
 footer ul {
